@@ -5,7 +5,6 @@
 This script splits the combined prelim science marks data in the **bronze layer** into separate per-grade results tables. It reads from a single bronze source table and creates/populates three grade-specific tables (Grade 10, 11, 12) in the `stg_Curro` staging database.
 
 ## Layer Context
-
 This is a **bronze-layer** operation within the Curro medallion architecture:
 
 | Layer  | Database    | Status                                   |
